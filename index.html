@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oris Community</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #fff;
+            background-color: #000;
+        }
+
+        .hero {
+            height: 100vh;
+            width: 100%;
+            background: url('jebemtimater.png') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .scroll-down {
+            position: absolute;
+            bottom: 50px;
+            left: 48.8%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        .scroll-down img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+            filter: invert(1);
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.2s;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.1);
+        }
+
+        .social-icons .instagram {
+            background-image: url('instagram.png');
+        }
+
+        .social-icons .discord {
+            background-image: url('discord.png');
+        }
+
+
+
+        .content {
+            padding: 2rem;
+            background-color: #121212;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .section p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .staff {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .staff .member {
+            flex: 1 1 calc(33.333% - 1rem);
+            background: #222;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .staff .member h3 {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            border-radius: 10px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #9500a8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .donation {
+            text-align: center;
+            margin-top: 10rem;
+        }
+
+        .donation h2 {
+            font-size: 2rem;
+            margin-bottom: rem;
+        }
+
+        .donation p {
+            font-size: 1rem;
+            margin-bottom: 4rem;
+        }
+
+        .donation a {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .donation a:hover {
+            background-color: #45a049;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Oris Community</h1>
+        <div class="social-icons">
+            <a href="https://instagram.com/orissteamm/" target="_blank" class="instagram"></a>
+            <a href="https://discord.gg/gxJYYQyUhq" target="_blank" class="discord"></a>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <img src="Scroll-Down.png" alt="Scroll Down" onclick="window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });">
+    </div>
+</div>
+
+
+    <div class="content">
+        <div class="section">
+            <h2>About Oris Community</h2>
+            <p>Wazaaaaaa! Oris community was made by Slaptyx and Lazaaa! Here u can make friends and have fun with other members! We have NSFW allowed so you can send what ever you want.. If you are lonely u have staff for asking questions! There will be giveaways every day, week, month, year. We are giving free fivem servers and scripts! In future maybe there will be an active ORIS SERVER (Minecraft, Fivem or games in roblox)</p>
+        </div>
+
+        <div class="section">
+            <h2>Server Features</h2>
+            <p>This is why we are best:</p>
+            <ul>
+                <li>Friendly and active staff</li>
+                <li>NSFW Content</li>
+                <li>A lot of interesting things</li>
+            </ul>
+        </div>
+
+        <div class="section donation">
+            <h2>Support Oris Community</h2>
+            <p>We appreciate your support to keep our community thriving! You can donate to help us grow and improve.</p>
+            <a href="https://www.paypal.com/ncp/payment/S4MCK2LJMJQBN" target="_blank">Donate via PayPal</a>
+        </div>
+
+        <div class="section">
+            <h2>Oris staff:</h2>
+            <div class="staff">
+                <div class="member">
+                    <h3>Founder</h3>
+                    <p>Slaptyx</p>
+                </div>
+                <div class="member">
+                    <h3>Founder</h3>
+                    <p>Lazaaa</p>
+                </div>
+                <div class="member">
+                    <h3>Co-Founder</h3>
+                    <p>Vasilijee</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Oris Community. All rights reserved.</a></p>
+    </footer>
+</body>
+</html>
